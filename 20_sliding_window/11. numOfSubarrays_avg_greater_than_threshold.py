@@ -97,6 +97,24 @@ class Solution:
 
         return res
 
+    def numOfSubarrays_optimal3(self, arr: list[int], k: int, threshold: int) -> int:
+        """
+        TC -> O(k) + O(n-k) ~ O(n)
+        SC -> O(k) because arr[:k-1] creates a temporary slice
+        """
+        curSum = sum(arr[:k - 1])
+        res = 0
+
+        for r in range(k - 1, len(arr)):
+            curSum += arr[r]
+
+            if curSum / k >= threshold:
+                res += 1
+
+            curSum -= arr[r - k + 1]
+
+        return res
+
 if __name__ == "__main__":
     sol = Solution()
     print(sol.numOfSubarrays_bruteforce(arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4))
@@ -110,7 +128,9 @@ if __name__ == "__main__":
     print(sol.numOfSubarrays_optimal2(arr=[2, 2, 2, 2, 5, 5, 5, 8], k=3, threshold=4))
     print(sol.numOfSubarrays_optimal2(arr=[11, 13, 17, 23, 29, 31, 7, 5, 2, 3], k=3, threshold=5
                                      ))
-
-
+    print()
+    print(sol.numOfSubarrays_optimal3(arr=[2, 2, 2, 2, 5, 5, 5, 8], k=3, threshold=4))
+    print(sol.numOfSubarrays_optimal3(arr=[11, 13, 17, 23, 29, 31, 7, 5, 2, 3], k=3, threshold=5
+                                     ))
 
 

@@ -12,6 +12,19 @@ The following pattern problems can be solved by sliding window / two pointer app
 
 3. Number of subarrays where <condition>  -- Bruteforce, better, optimal
 
+
+## Golden Rules:
+
+1. Don't stop when you reach the limit. Stop when you cross the limit.
+2. Calculate the maximum length only when the window is valid.
+
+# General steps:
+1. Expand the window — move right forward.
+2. Update the window state — update the count, sum, frequency map, etc.
+3. Shrink while invalid — move left forward until the window becomes valid.
+4. Now the window is valid — it satisfies all problem constraints.
+5. Update maxi — calculate the current window length: right - left + 1.
+
 ## Problems
 
 LeetCode 643.     Maximum Average Subarray I - DONE
@@ -23,8 +36,8 @@ LeetCode 209.     Minimum Size Subarray Sum - DONE
 LeetCode 3.       Longest Substring Without Repeating Characters - DONE
 LeetCode 567.     Permutation in String
 LeetCode 438.     Find All Anagrams in a String
-LeetCode 1004.    Max Consecutive Ones III
-LeetCode 904.     Fruit Into Baskets
+LeetCode 1004.    Max Consecutive Ones III - [Variable sliding window problem]  - DONE
+LeetCode 904.     Fruit Into Baskets - [Variable sliding window problem]      -  DONE
 LeetCode 424.     Longest Repeating Character Replacement
 LeetCode 1493.    Longest Subarray of 1's After Deleting One Element
 LeetCode 1423.    Maximum Points You Can Obtain from Cards
