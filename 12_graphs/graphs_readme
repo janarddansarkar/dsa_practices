@@ -1,1 +1,43 @@
 # Graphs data structures
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Grid DFS / BFS
+LeetCode 733.     Flood Fill
+LeetCode 200.     Number of Islands
+LeetCode 695.     Max Area of Island
+LeetCode 463.     Island Perimeter
+LeetCode 1971.    Find if Path Exists in Graph
+
+### Level 2 - Traversal on general graphs
+LeetCode 133.     Clone Graph
+LeetCode 547.     Number of Provinces
+LeetCode 997.     Find the Town Judge                             -- in / out degree
+LeetCode 785.     Is Graph Bipartite?                             -- two-colouring
+LeetCode 417.     Pacific Atlantic Water Flow                     -- search from the borders
+LeetCode 130.     Surrounded Regions
+
+### Level 3 - Shortest path (BFS) and multi-source BFS
+LeetCode 994.     Rotting Oranges
+LeetCode 542.     01 Matrix
+LeetCode 127.     Word Ladder
+
+### Level 4 - Topological sort and Union-Find
+LeetCode 207.     Course Schedule                                 -- cycle detection
+LeetCode 210.     Course Schedule II                              -- order
+LeetCode 684.     Redundant Connection
+LeetCode 721.     Accounts Merge
+LeetCode 399.     Evaluate Division
+
+### Level 5 - Weighted graphs
+LeetCode 743.     Network Delay Time                              -- Dijkstra
+LeetCode 1631.    Path With Minimum Effort                        -- Dijkstra on a grid
+LeetCode 787.     Cheapest Flights Within K Stops                 -- Bellman-Ford / BFS levels
+LeetCode 1584.    Min Cost to Connect All Points                  -- MST
+
+### Level 6 - Hard
+LeetCode 332.     Reconstruct Itinerary                           -- Eulerian path
+LeetCode 1192.    Critical Connections in a Network               -- Tarjan's bridges

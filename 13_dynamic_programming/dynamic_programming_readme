@@ -4,3 +4,51 @@ Dynamic programming is a extended version of recursion
 
 https://www.geeksforgeeks.org/dynamic-programming/
 
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - 1D DP (recursion + memo -> table)
+Idea: write the recursion first, add memoization, then convert to a table.
+
+LeetCode 509.     Fibonacci Number  - DONE
+LeetCode 70.      Climbing Stairs
+LeetCode 746.     Min Cost Climbing Stairs
+LeetCode 198.     House Robber                                    -- take / skip
+LeetCode 213.     House Robber II                                 -- circular: run twice
+
+### Level 2 - Grid DP
+LeetCode 62.      Unique Paths
+LeetCode 63.      Unique Paths II
+LeetCode 64.      Minimum Path Sum
+LeetCode 120.     Triangle
+LeetCode 931.     Minimum Falling Path Sum
+LeetCode 221.     Maximal Square
+
+### Level 3 - Knapsack family
+LeetCode 416.     Partition Equal Subset Sum                      -- 0/1 knapsack
+LeetCode 494.     Target Sum
+LeetCode 322.     Coin Change                                     -- unbounded knapsack
+LeetCode 518.     Coin Change II                                  -- count combinations
+LeetCode 139.     Word Break
+
+### Level 4 - Subsequences and strings
+LeetCode 300.     Longest Increasing Subsequence  - DONE
+LeetCode 1143.    Longest Common Subsequence
+LeetCode 516.     Longest Palindromic Subsequence
+LeetCode 5.       Longest Palindromic Substring
+LeetCode 91.      Decode Ways
+LeetCode 152.     Maximum Product Subarray
+
+### Level 5 - State machines (stocks)
+LeetCode 121.     Best Time to Buy and Sell Stock
+LeetCode 122.     Best Time to Buy and Sell Stock II
+LeetCode 309.     Best Time to Buy and Sell Stock with Cooldown
+
+### Level 6 - Hard
+LeetCode 72.      Edit Distance
+LeetCode 115.     Distinct Subsequences
+LeetCode 10.      Regular Expression Matching
+LeetCode 312.     Burst Balloons                                  -- interval DP
+LeetCode 354.     Russian Doll Envelopes

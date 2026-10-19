@@ -55,3 +55,35 @@ print(-heapq.heappop(max_heap))  # 5
 - Finding k smallest/largest elements
 - Dijkstra's algorithm
 - Huffman coding
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Use the heap as a priority queue
+LeetCode 703.     Kth Largest Element in a Stream                 -- min-heap of size k
+LeetCode 1046.    Last Stone Weight                               -- max-heap
+LeetCode 215.     Kth Largest Element in an Array
+LeetCode 973.     K Closest Points to Origin
+
+### Level 2 - Top K and scheduling
+LeetCode 347.     Top K Frequent Elements
+LeetCode 451.     Sort Characters By Frequency
+LeetCode 767.     Reorganize String                               -- always pick the most frequent
+LeetCode 621.     Task Scheduler
+LeetCode 378.     Kth Smallest Element in a Sorted Matrix
+
+### Level 3 - Merge and multi-source
+Idea: push the next element of whichever list you just popped from.
+
+LeetCode 23.      Merge k Sorted Lists
+LeetCode 264.     Ugly Number II
+LeetCode 373.     Find K Pairs with Smallest Sums
+LeetCode 355.     Design Twitter
+
+### Level 4 - Hard (two heaps, greedy + heap)
+LeetCode 295.     Find Median from Data Stream                    -- max-heap + min-heap
+LeetCode 502.     IPO
+LeetCode 1642.    Furthest Building You Can Reach
+LeetCode 632.     Smallest Range Covering Elements from K Lists

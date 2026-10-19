@@ -1,1 +1,31 @@
 # Queue
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Build it
+LeetCode 232.     Implement Queue using Stacks
+LeetCode 225.     Implement Stack using Queues
+LeetCode 622.     Design Circular Queue
+LeetCode 641.     Design Circular Deque
+LeetCode 933.     Number of Recent Calls
+
+### Level 2 - Simulation
+LeetCode 1700.    Number of Students Unable to Eat Lunch
+LeetCode 1823.    Find the Winner of the Circular Game
+LeetCode 950.     Reveal Cards In Increasing Order
+LeetCode 649.     Dota2 Senate
+
+### Level 3 - BFS with a queue
+LeetCode 102.     Binary Tree Level Order Traversal
+LeetCode 994.     Rotting Oranges                                 -- multi-source BFS
+LeetCode 752.     Open the Lock
+
+### Level 4 - Monotonic deque (Hard)
+Idea: keep indices in the deque with values in decreasing order.
+
+LeetCode 239.     Sliding Window Maximum
+LeetCode 1438.    Longest Continuous Subarray With Absolute Diff <= Limit
+LeetCode 862.     Shortest Subarray with Sum at Least K

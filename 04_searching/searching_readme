@@ -2,3 +2,37 @@
 Must to know search algorithms:
 1. Linear search
 2. Binary search
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Binary search basics
+Idea: keep an invariant: the answer always lies in [low, high].
+
+LeetCode 704.     Binary Search  - DONE
+LeetCode 35.      Search Insert Position                          -- lower bound
+LeetCode 278.     First Bad Version                               -- first True in F F F T T
+LeetCode 69.      Sqrt(x)
+LeetCode 744.     Find Smallest Letter Greater Than Target
+
+### Level 2 - Boundaries and rotated arrays
+LeetCode 34.      Find First and Last Position of Element in Sorted Array-- lower + upper bound
+LeetCode 33.      Search in Rotated Sorted Array
+LeetCode 81.      Search in Rotated Sorted Array II               -- duplicates break the half test
+LeetCode 153.     Find Minimum in Rotated Sorted Array
+LeetCode 162.     Find Peak Element                               -- binary search without a sorted array
+LeetCode 540.     Single Element in a Sorted Array
+LeetCode 74.      Search a 2D Matrix
+
+### Level 3 - Binary search on the answer
+Idea: if you can check 'is X feasible?' in O(n) and feasibility is monotonic, binary search X.
+
+LeetCode 875.     Koko Eating Bananas
+LeetCode 1011.    Capacity To Ship Packages Within D Days
+LeetCode 410.     Split Array Largest Sum
+
+### Level 4 - Hard
+LeetCode 4.       Median of Two Sorted Arrays                     -- binary search on the partition
+LeetCode 719.     Find K-th Smallest Pair Distance

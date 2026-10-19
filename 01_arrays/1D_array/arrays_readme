@@ -1,1 +1,51 @@
 # Arrays or List in python
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Traversal and basic tricks
+Idea: one pass, keep a running value (max, count, last seen).
+
+LeetCode 485.     Max Consecutive Ones  - DONE
+LeetCode 136.     Single Number                                   -- XOR cancels pairs - DONE
+LeetCode 268.     Missing Number                                  -- sum / XOR - DONE
+LeetCode 26.      Remove Duplicates from Sorted Array             -- two pointers (read / write) - DONE
+LeetCode 283.     Move Zeroes                                     -- two pointers, in place - DONE
+LeetCode 189.     Rotate Array                                    -- reverse trick: whole, then two parts
+LeetCode 121.     Best Time to Buy and Sell Stock                 -- track min so far - DONE
+
+### Level 2 - Hashing and prefix ideas on arrays
+Idea: trade space for time; remember what you saw.
+
+LeetCode 1.       Two Sum                                         -- hash map of value -> index - DONE
+LeetCode 169.     Majority Element                                -- Boyer-Moore voting
+LeetCode 238.     Product of Array Except Self                    -- prefix x suffix
+LeetCode 560.     Subarray Sum Equals K                           -- prefix sum + hash map - DONE
+LeetCode 128.     Longest Consecutive Sequence                    -- set + only start from sequence heads - DONE
+
+### Level 3 - Patterns every array problem reuses
+Idea: sort + two pointers, Kadane, Dutch flag, intervals.
+
+LeetCode 53.      Maximum Subarray                                -- Kadane's algorithm - DONE
+LeetCode 75.      Sort Colors                                     -- Dutch national flag, 3 pointers - DONE
+LeetCode 15.      3Sum                                            -- sort + two pointers + skip duplicates - DONE
+LeetCode 11.      Container With Most Water                       -- move the shorter side
+LeetCode 56.      Merge Intervals                                 -- sort by start
+LeetCode 31.      Next Permutation                                -- find pivot, swap, reverse
+LeetCode 152.     Maximum Product Subarray                        -- track both max and min
+
+### Level 4 - Hard (needs real insight)
+LeetCode 42.      Trapping Rain Water                             -- prefix/suffix max -> two pointers
+LeetCode 41.      First Missing Positive                          -- use the array itself as a hash
+LeetCode 287.     Find the Duplicate Number                       -- array as linked list, Floyd's cycle
+LeetCode 4.       Median of Two Sorted Arrays                     -- binary search on partition - DONE
+
+### 2D arrays (matrix)
+Idea: index arithmetic and in-place tricks.
+
+LeetCode 73.      Set Matrix Zeroes                               -- use first row/col as markers
+LeetCode 48.      Rotate Image                                    -- transpose, then reverse rows
+LeetCode 54.      Spiral Matrix                                   -- shrink four boundaries
+LeetCode 74.      Search a 2D Matrix                              -- treat as a sorted 1D array

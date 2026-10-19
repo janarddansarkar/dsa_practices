@@ -1,1 +1,36 @@
 # Bit Manipulation
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Single-bit operations
+Idea: check / set / clear the i-th bit; n & (n-1) clears the lowest set bit.
+
+LeetCode 191.     Number of 1 Bits
+LeetCode 231.     Power of Two
+LeetCode 342.     Power of Four
+LeetCode 461.     Hamming Distance
+LeetCode 476.     Number Complement
+LeetCode 338.     Counting Bits
+
+### Level 2 - XOR tricks
+Idea: a ^ a = 0 and a ^ 0 = a.
+
+LeetCode 136.     Single Number  - DONE
+LeetCode 268.     Missing Number  - DONE
+LeetCode 190.     Reverse Bits
+LeetCode 371.     Sum of Two Integers                             -- add without +
+
+### Level 3 - Counting bits and masks
+LeetCode 260.     Single Number III
+LeetCode 137.     Single Number II                                -- count bits mod 3
+LeetCode 201.     Bitwise AND of Numbers Range                    -- common prefix
+LeetCode 78.      Subsets                                         -- bitmask enumeration
+LeetCode 1863.    Sum of All Subset XOR Totals
+LeetCode 393.     UTF-8 Validation
+
+### Level 4 - Hard
+LeetCode 421.     Maximum XOR of Two Numbers in an Array          -- bitwise trie
+LeetCode 1318.    Minimum Flips to Make a OR b Equal to c

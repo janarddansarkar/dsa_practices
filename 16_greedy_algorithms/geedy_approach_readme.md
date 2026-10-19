@@ -57,3 +57,40 @@ For every decision, it asks:
 In short:
 
 > **Choose the best now, hope it's best overall.**
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Obvious local choice
+LeetCode 455.     Assign Cookies                                  -- sort both, match smallest - DONE
+LeetCode 860.     Lemonade Change                                 -- keep the bigger notes for later - DONE
+LeetCode 122.     Best Time to Buy and Sell Stock II
+LeetCode 976.     Largest Perimeter Triangle
+
+### Level 2 - Sort, then sweep
+LeetCode 55.      Jump Game                                       -- track farthest reach
+LeetCode 45.      Jump Game II
+LeetCode 134.     Gas Station
+LeetCode 135.     Candy                                           -- two passes
+LeetCode 763.     Partition Labels
+
+### Level 3 - Intervals
+Idea: sort by END time to keep the most intervals.
+
+LeetCode 435.     Non-overlapping Intervals
+LeetCode 452.     Minimum Number of Arrows to Burst Balloons
+LeetCode 56.      Merge Intervals
+LeetCode 1094.    Car Pooling
+
+### Level 4 - Harder greedy
+LeetCode 621.     Task Scheduler
+LeetCode 767.     Reorganize String
+LeetCode 406.     Queue Reconstruction by Height
+LeetCode 678.     Valid Parenthesis String                        -- track a range of open counts
+LeetCode 402.     Remove K Digits
+LeetCode 316.     Remove Duplicate Letters
+
+### Level 5 - Hard
+LeetCode 330.     Patching Array

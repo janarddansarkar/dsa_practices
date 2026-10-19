@@ -61,15 +61,32 @@ for num in arr:
 # Result: count = 2 (subarray [5] and [2,1,2])
 ```
 
-## Problems
-- Leetcode 560
-- Leetcode 523
-- Leetcode 525
-- Leetcode 724
-- Leetcode 303
-- Leetcode 304
-- Leetcode 1480
-- Leetcode 1314
 
-## Prefix Product Array
-- Leetcode 238
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Build and query a prefix array
+LeetCode 1480.    Running Sum of 1d Array  - DONE
+LeetCode 303.     Range Sum Query - Immutable  - DONE
+LeetCode 724.     Find Pivot Index                                -- left sum == total - left - x - DONE
+
+### Level 2 - Prefix sum + hash map
+Idea: if prefix[j] - prefix[i] = k then sum(i+1..j) = k.
+
+LeetCode 560.     Subarray Sum Equals K  - DONE
+LeetCode 525.     Contiguous Array                                -- treat 0 as -1 - DONE
+LeetCode 523.     Continuous Subarray Sum                         -- store prefix % k - DONE
+LeetCode 974.     Subarray Sums Divisible by K
+
+### Level 3 - 2D prefix sum
+LeetCode 304.     Range Sum Query 2D - Immutable  - DONE
+LeetCode 1314.    Matrix Block Sum  - DONE
+
+### Level 4 - Prefix product and difference array
+Idea: difference array = range updates in O(1), then one prefix pass.
+
+LeetCode 238.     Product of Array Except Self                    -- prefix product x suffix product
+LeetCode 1109.    Corporate Flight Bookings                       -- difference array
+LeetCode 1094.    Car Pooling                                     -- difference array
+LeetCode 437.     Path Sum III                                    -- prefix sum on a tree path

@@ -1,1 +1,27 @@
 # Divide and conquer readme
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Halve and recurse
+LeetCode 50.      Pow(x, n)                                       -- x^n = (x^(n/2))^2
+LeetCode 169.     Majority Element                                -- divide and conquer version
+LeetCode 53.      Maximum Subarray                                -- D&C version: left, right, crossing
+
+### Level 2 - Sort-based
+LeetCode 912.     Sort an Array                                   -- merge sort
+LeetCode 148.     Sort List
+LeetCode 215.     Kth Largest Element in an Array                 -- quickselect
+LeetCode 108.     Convert Sorted Array to Binary Search Tree
+
+### Level 3 - Build all answers
+LeetCode 241.     Different Ways to Add Parentheses
+LeetCode 95.      Unique Binary Search Trees II
+
+### Level 4 - Hard (count during the merge)
+LeetCode 315.     Count of Smaller Numbers After Self
+LeetCode 493.     Reverse Pairs
+LeetCode 23.      Merge k Sorted Lists
+LeetCode 4.       Median of Two Sorted Arrays

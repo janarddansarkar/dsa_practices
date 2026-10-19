@@ -1,1 +1,36 @@
 # Stack
+
+
+## Problems (easy to hard)
+
+Work top to bottom. Each level adds one new idea on top of the last.
+
+### Level 1 - Basics
+LeetCode 20.      Valid Parentheses
+LeetCode 155.     Min Stack                                       -- store the min with each element
+LeetCode 682.     Baseball Game
+LeetCode 1047.    Remove All Adjacent Duplicates In String
+LeetCode 71.      Simplify Path
+
+### Level 2 - Monotonic stack (next greater element)
+Idea: pop while the top is smaller; the popped ones just found their answer.
+
+LeetCode 496.     Next Greater Element I
+LeetCode 503.     Next Greater Element II                         -- circular: loop 2n
+LeetCode 739.     Daily Temperatures
+LeetCode 901.     Online Stock Span
+
+### Level 3 - Parsing and nesting
+LeetCode 150.     Evaluate Reverse Polish Notation
+LeetCode 394.     Decode String
+LeetCode 735.     Asteroid Collision
+LeetCode 227.     Basic Calculator II
+LeetCode 402.     Remove K Digits                                 -- greedy + monotonic stack
+
+### Level 4 - Hard
+LeetCode 84.      Largest Rectangle in Histogram
+LeetCode 85.      Maximal Rectangle                               -- histogram per row
+LeetCode 907.     Sum of Subarray Minimums                        -- left / right smaller counts
+LeetCode 42.      Trapping Rain Water                             -- stack version
+LeetCode 316.     Remove Duplicate Letters
+LeetCode 224.     Basic Calculator
